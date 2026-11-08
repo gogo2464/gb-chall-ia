@@ -1,0 +1,15 @@
+{
+  "name": "gb-trade-server",
+  "version": "1.0.0",
+  "description": "Headless Game Boy emulator that parks Pokemon Red in the Cable Club and trades with anyone who connects over the BGB link protocol",
+  "main": "src/server.js",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/cpu.test.js",
+    "linktest": "node tools/linktest.js",
+    "shots": "node tools/run.js"
+  }
+}

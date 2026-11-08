@@ -1,0 +1,5 @@
+roms
+shots*
+node_modules
+*.png
+.git
